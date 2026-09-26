@@ -78,4 +78,3 @@ This is  guidance, not a compliance certification. Adapt it to your data classif
 
 ## [License](LICENSE.txt).
 
-# mcp-security-best-practices
