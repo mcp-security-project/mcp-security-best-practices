@@ -2,8 +2,6 @@
 
 A practical, defense-in-depth guide for designing, building, reviewing, and operating secure MCP clients, servers, gateways, and tool ecosystems.
 
-> **Baseline:** This guide targets the released MCP specification **2026-07-28**. That version is stateless and removed protocol-level sessions, `Mcp-Session-Id`, HTTP GET streams, and `initialize`. If you support an older MCP version, isolate its compatibility code and apply the legacy session guidance linked in the [references](MCP-Security-Best-Practices/10-references.md).
-
 ## Start here
 
 - **Building a server:** [Principles](MCP-Security-Best-Practices/01-principles-and-threat-model.md) → [Identity and authorization](MCP-Security-Best-Practices/02-identity-and-authorization.md) → [Secure tools](MCP-Security-Best-Practices/03-tools-and-content-security.md) → [Transport](MCP-Security-Best-Practices/04-transport-and-network.md)
@@ -75,11 +73,8 @@ A practical, defense-in-depth guide for designing, building, reviewing, and oper
 - **Local server:** Usually a subprocess connected using stdio. “Local” is not synonymous with “trusted.”
 - **Deterministic control:** Code or policy evaluated outside the model. Model instructions alone are not an authorization boundary.
 
-This is engineering guidance, not a compliance certification. Adapt it to your data classification, threat model, applicable law, and risk tolerance.
+This is  guidance, not a compliance certification. Adapt it to your data classification, threat model, applicable law, and risk tolerance.
 
-## Contributing
-
-Add a source to [References](MCP-Security-Best-Practices/10-references.md).
 
 ## [License](LICENSE.txt).
 
