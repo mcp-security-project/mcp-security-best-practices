@@ -79,15 +79,8 @@ This is engineering guidance, not a compliance certification. Adapt it to your d
 
 ## Contributing
 
-When changing this guide:
+Add a source to [References](MCP-Security-Best-Practices/10-references.md).
 
-1. Prefer specifications, RFCs, standards bodies, official advisories, and primary research.
-2. State when advice is version-specific or non-normative.
-3. Add a source to [References](MCP-Security-Best-Practices/10-references.md).
-4. Keep examples secure by default and free of real credentials.
-5. Re-run link and Markdown checks before release.
+## [License](LICENSE.txt).
 
-## License
-
-Documentation is provided for educational use. Add the repository's chosen license before redistribution.
 # mcp-security-best-practices
